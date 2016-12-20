@@ -1,0 +1,41 @@
+.expanded {
+	height: auto;
+}
+.collapsed {
+	height: 0em;
+}
+
+body {
+	background: #303030;
+}
+
+#infobox {
+	transition: 0.5s all ease-in-out;
+	overflow: hidden;
+	background: #424242;
+	color: rgba(255, 255, 255, 1);
+	width: auto;
+	padding-left: 1em;
+	padding-right: 1em;
+	-webkit-box-shadow: 5px 10px 20px #000;
+	box-shadow: 5px 10px 20px #000;
+	margin-left: 5px;
+}
+
+video:focus {
+	outline: none;
+}
+
+#container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	-ms-align-items: center;
+}	
