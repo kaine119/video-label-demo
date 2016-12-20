@@ -1,6 +1,6 @@
 var shots = []
 
-document.getElementById('player').playbackRate = 0.5
+document.getElementById('player').playbackRate = 1.0
 
 fetch('./2014-05-10_2300_US_KABC_Eyewitness_News_4PM_clip.sht')
 .then(function(res){
